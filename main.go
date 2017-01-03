@@ -42,7 +42,7 @@ func main() {
 				continue
 			}
 
-			distInc := float64(dist) / float64(ptCount-2)
+			distInc := float64(dist) / float64(ptCount-1)
 			currentDist := 0.0
 
 			for i := range lap.Trk.Pt {
